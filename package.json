@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@yarnpkg/sdks": "^3.0.0-rc.42",
-    "astro": "^2.2.1"
+    "astro": "^2.2.1",
+    "buttercms": "^1.2.10"
   }
 }
