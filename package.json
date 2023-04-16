@@ -13,5 +13,9 @@
 		"astro": "^2.2.1",
 		"graphql": "^16.6.0",
 		"graphql-request": "^6.0.0"
+	},
+	"devDependencies": {
+		"@yarnpkg/sdks": "^3.0.0-rc.42",
+		"typescript": "^5.0.4"
 	}
 }
