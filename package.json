@@ -1,16 +1,17 @@
 {
-  "name": "we-love-web",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^2.2.1",
-    "buttercms": "^1.2.10"
-  }
+	"name": "we-love-web",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "^2.2.1",
+		"graphql": "^16.6.0",
+		"graphql-request": "^6.0.0"
+	}
 }
