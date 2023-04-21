@@ -1,16 +1,5 @@
 ---
-import DefaultLayout from "../layouts/DefaultLayout.astro"
-import { getPage } from "../lib/hygraph.js"
+import { defaultLang } from "../i18n/ui"
 
-interface Page {
-  title: string
-  content: string
-}
-
-const page = (await getPage("start")) as Page
+return Astro.redirect(`/${defaultLang}/`)
 ---
-
-<DefaultLayout title="Start">
-  <h1>{page.title}</h1>
-  <div>{page.content}</div>
-</DefaultLayout>
