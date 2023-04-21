@@ -10,6 +10,7 @@
 		"astro": "astro"
 	},
 	"dependencies": {
+		"@astrojs/vercel": "^3.2.4",
 		"astro": "^2.2.1",
 		"graphql": "^16.6.0",
 		"graphql-request": "^6.0.0"
