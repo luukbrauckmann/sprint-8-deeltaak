@@ -15,7 +15,6 @@
 		"graphql-request": "^6.0.0"
 	},
 	"devDependencies": {
-		"@yarnpkg/sdks": "^3.0.0-rc.42",
 		"typescript": "^5.0.4"
 	}
 }
